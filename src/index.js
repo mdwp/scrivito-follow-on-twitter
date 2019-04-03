@@ -1,4 +1,4 @@
-import "./TwitterFollowClass";
-import "./TwitterFollowComponent";
-import "./TwitterFollowEditingConfig";
+import "./TwitterFollowWidgetClass";
+import "./TwitterFollowWidgetComponent";
+import "./TwitterFollowWidgetEditingConfig";
 

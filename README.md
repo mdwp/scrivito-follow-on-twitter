@@ -19,6 +19,23 @@ Add this line to your index.js:
 import "scrivito-follow-on-twitter";
 ```
 
+Make the following changes in your '_headersCsp.json' in the public directory of your Scrivito App:
+
+```
+"script-src": [
+        "'self'",
+        "https://api.scrivito.com",
+        "https://app.intercom.io",
+        "https://assets.scrivito.com",
+        "https://js.intercomcdn.com",
+        "https://widget.intercom.io",
+        "https://www.google-analytics.com",
+        "https://maps.googleapis.com/maps/api/js",
+        "https://platform.twitter.com/widgets.js",
+        "https://platform.twitter.com/js/"
+    ],
+````
+
 ## Development
 
 With `npm run build` you can build the package into `build/`.
