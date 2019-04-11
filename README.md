@@ -1,6 +1,11 @@
 # Scrivito Follow on Twitter
 [![CMS: Scrivito](https://img.shields.io/badge/CMS-Scrivito-brightgreen.svg)](https://scrivito.com) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-follow-on-twitter/master/follow-on-twitter-screenshot.png)
+
+
 ## Installation
 
 Open your terminal.
