@@ -7,13 +7,13 @@ import { TwitterFollowButton } from 'react-twitter-embed';
 Scrivito.provideComponent('TwitterFollowWidget', ({ widget }) => {
   const twitter = widget.get('twitter');
 
-  /*if (!twitter.length) {
+  if (!twitter.length && Scrivito.isInPlaceEditingActive()) {
     return (
-      <InPlaceEditingPlaceholder center={ true }>
-        Create Twitter follow button in widget properties.
-      </InPlaceEditingPlaceholder>
+        <h4 className="text-center">
+          Provide the twitter name in the widget properties.
+        </h4>
     );
-  }*/
+  }
 
   return (
     <TwitterFollowButton

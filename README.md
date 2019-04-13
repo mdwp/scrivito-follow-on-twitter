@@ -5,7 +5,6 @@
 
 ![Screenshot](https://raw.githubusercontent.com/mdwp/scrivito-follow-on-twitter/master/follow-on-twitter-screenshot.png)
 
-
 ## Installation
 
 Open your terminal.
