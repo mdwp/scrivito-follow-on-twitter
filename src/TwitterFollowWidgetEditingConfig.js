@@ -7,7 +7,7 @@ Scrivito.provideEditingConfig('TwitterFollowWidget', {
 
         twitter: {
             title: 'Twitter Name',
-
+            description: 'Name on Twitter e.g. "scrivito" '
         },
     },
     properties: [
